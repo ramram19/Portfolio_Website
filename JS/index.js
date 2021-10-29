@@ -10,7 +10,7 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
-
+$(window).unload(function() {$.cookie('scrollTop',$(window).scrollTop());});
 
 
 
