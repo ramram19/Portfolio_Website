@@ -473,3 +473,6 @@ header {
     margin-bottom: 3em;
     max-height: 500px;
 }
+.portfolio-item-image-text {
+    margin-top: -1.5em;
+}
